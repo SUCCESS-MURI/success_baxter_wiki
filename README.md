@@ -1,6 +1,6 @@
 # success_baxter_wiki
 
-A wiki for consisting of documentation and working code for baxter-kinect calibration stuff.
+A wiki for maintaining documentation and working code for baxter-kinect calibration stuff.
 Also includes code for basic pick-and-place task using move-it.
 
 **Note:** All the code is tested on *Python 3, ROS Melodic, Kinect v2 and Ubuntu Bionic Beaver*. As a practice, separate branches and notes for backward compatibility will be maintained only ahead of these base versions and not for before.
