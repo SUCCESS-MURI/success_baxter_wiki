@@ -9,10 +9,13 @@ Also includes code for basic pick-and-place task using move-it.
 
 This wiki is heavily based off the following repositories - 
 
- - Calibrating Baxter Camera: https://github.com/SUCCESS-MURI/success_baxter_camera_calibration/blob/master/launch/calibrate.launch
- - Calibrating Kinect V2: IAI Kinect 2
- - Calibrating Static Transform Between Baxter and Kinect V2: Baxter H2R Packages
- - Object Detection: Nvidia DOPE
- - Basic Pick and Place: Baxter H2R Packages
+ - Calibrating Baxter Camera: [SUCCESS_BAXTER_CALIBRATION](https://github.com/SUCCESS-MURI/success_baxter_camera_calibration/blob/master/launch/calibrate.launch
+)
+ - Calibrating Kinect V2: [IAI Kinect 2](https://github.com/SUCCESS-MURI/iai_kinect2)
+ - Calibrating Static Transform Between Baxter and Kinect V2: [Baxter H2R Packages](https://github.com/SUCCESS-MURI/baxter_h2r_packages)
+ - Object Detection: [NVIDIA DOPE](https://github.com/SUCCESS-MURI/Deep_Object_Pose)
+ - Basic Pick and Place: [Baxter H2R Packages](https://github.com/SUCCESS-MURI/baxter_h2r_packages)
+ - Displaying Task Confidence On Screen: [Baxter H2R Packages](https://github.com/SUCCESS-MURI/baxter_h2r_packages)
+ - Talking Baxter: TBD
 
 Access the wiki [here](https://github.com/SUCCESS-MURI/success_baxter_wiki/wiki). 
