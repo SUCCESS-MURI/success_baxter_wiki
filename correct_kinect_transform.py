@@ -19,9 +19,15 @@ def transform_command(base_frame, kinect_frame, trans, euler):
     P = euler[1]
     R = euler[0]
 
-    Y_ = R 
-    P_ = Y - np.pi/2  
-    R_ = P + np.pi/2 
+    # in front of baxter
+    Y_ = Y - np.pi/2
+    P_ = R 
+    R_ = -(P + np.pi/2) 
+    
+    # on baxter
+    # Y_ = (np.pi/2) - R 
+    # P_ = -(np.pi - Y)
+    # R_ = (np.pi/2) - P
     print "<node pkg='tf' type='static_transform_publisher' name='kinect_broadcaster' args='{} {} {} {} {} {} {} {} 10' />".format(trans[0], trans[1], trans[2], Y_, P_, R_, base_frame, kinect_frame)
     return "rosrun tf static_transform_publisher {} {} {} {} {} {} {} {} 10".format(trans[0], trans[1], trans[2], Y_, P_, R_, base_frame, kinect_frame)
 
